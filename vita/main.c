@@ -61,7 +61,7 @@ int module_start(SceSize argc, const void *args)
     {
         sceClibPrintf("Failed to read allefresher.txt, using default URL\n");
 
-        strcpy(GAME_URL, "http://refresh.jvyden.xyz:2095/lbp");
+        strcpy(GAME_URL, "http://lighthouse.lbpunion.com/LITTLEBIGPLANETPS3_XML");
     }
     else
     {
